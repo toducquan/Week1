@@ -1,0 +1,153 @@
+.login{
+    position: absolute;
+    left: 26%;
+    top: 0px;
+    width: 74%;
+    height: 100vh;
+    background-color: rgb(222, 230, 230);
+
+}
+.modal{
+    position: absolute;
+    left: 30%;
+    top: 0px;
+    width: 74%;
+    height: 100vh;
+    background-color: rgb(222, 230, 230);
+}
+.model-load{
+    position: absolute;
+    top: 25%;
+    left: 0%;
+    width: 100%;
+    height: 75%;
+    background-color: rgb(222, 230, 230);
+    z-index: 2;
+}
+.modal-title{
+    margin: 3% 0%;
+    font-family: 'Newsreader', serif;
+    font-weight: bold;
+    padding: 15px;
+    font-size: 32px;
+    position: relative;
+}
+.model-loader{
+    width: 30px;
+    height: 30px;
+    border: 6px solid;
+    color: rgb(56, 31, 31);
+    border-radius: 50%;
+    margin: 8% 50% ;
+    border-top-color: transparent;
+    animation: loader 1.2s linear infinite;
+}
+.modal-title img{
+    height: 32px;
+    width: 32px;
+    position: absolute;
+    right: 2%;
+    top: 10px;
+}
+.title{
+    font-family: 'Newsreader', serif;
+    margin:1.5% 5%;
+    height: 5%;
+    padding-top: 10px;
+    font-weight: bold;
+}
+.none{
+    display: none;
+}
+.loader-container{
+    position: absolute;
+    left: 0%;
+    top: 43.5%;
+    width: 100%;
+    height: 40%;
+    background-color: rgb(222, 230, 230);
+    z-index: 1;
+}
+.loader{
+    width: 30px;
+    height: 30px;
+    border: 6px solid;
+    color: rgb(56, 31, 31);
+    border-radius: 50%;
+    margin: 8% 50% ;
+    border-top-color: transparent;
+    animation: loader 1.2s linear infinite;
+}
+
+@keyframes loader{
+    to{
+        transform: rotate(360deg);
+    }
+}
+
+.plan{
+    margin: 0% 5%;
+    height: 15%;
+}
+.mini-plan{
+    margin-right:3%;
+    width: 28%;
+    height: 80%;
+    float: left;
+    background-color: #eeeeee;
+    text-align: center;
+    padding-top: 22px;
+}
+.mini-plan p{
+    font-family: 'Newsreader', serif;
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+.mini-plan img{
+    width: 14px;
+    heigh: 14px;
+}
+.color1{
+    color: rgb(221, 90, 90);
+}
+.color2{
+    color: rgb(85, 224, 85);
+}
+.color3{
+    color: rgb(90, 142, 221);
+}
+.table{
+    margin: 0 5%;
+    height: 50%;
+}
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+    height: 70%;
+    border-top: 1px solid blue;
+  }
+  td, th {
+    border-top: 1px solid #dddddd;
+    border-bottom: 2px solid #dddddd;
+    text-align: right;
+    padding: 8px;
+  }
+
+  @media (max-width: 415px){
+      .login{
+        left: 10%;
+        top: 0px;
+        width: 500px;
+      }
+      .loader-container{
+        top: 38.5%;
+        left: 0%;
+        width: 500px;
+      }
+      .modal{
+        left: 10%;
+        width: 500px;
+      }
+  }

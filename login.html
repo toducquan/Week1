@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Newsreader:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/navbar.css">
+    <link rel="stylesheet" href="css/loading.css">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="https://code.jquery.com/jquery-2.2.4.js" integrity="sha256-iT6Q9iMJYuQiMWNd9lDyBUStIq/8PuOW33aOqmvFpqI=" crossorigin="anonymous"></script>
+    <script src="js/navbar.js"></script>
+</head>
+<body>
+    <div class="menu-mini">
+        <img src ="img/menu.png">
+    </div>
+    <div class="navbar hiden">
+        <div class="user">
+            <div class="avt">
+                <img src="img/user.png">
+            </div>
+            <div class="user-info">
+               <p><a href="">Tô Đức Quân</a></p>
+               <div class="acc">
+                   <a href="">My account</a>
+                   <a href="">Log out</a>
+               </div>
+            </div>
+            <div class="close">
+                <img src="img/previous.svg">
+            </div>
+        </div>
+        <div class="menu">
+            <div class="space">
+
+            </div>
+            <div class="single-menu">
+                <a href="#"><strong>Dashboard</strong></a>
+            </div>
+            <div class="single-menu">
+                <a href="#"><strong>Repost & Statistic</strong></a>
+            </div>
+            <div class="dropdown-menu" id="menu1">
+                <a class="drop"><strong>B2B Solution</strong> <img src="img/down-arrow.png"></a>
+                <div class="dropdown-content" id="drop1">
+                    <a href="#">Custom pricings</a>
+                    <a href="#">Customer auto tag</a>
+                    <a href="#">Wholesaler Registration form</a>
+                </div>
+            </div>
+            <div class="dropdown-menu" id="menu2">
+                <a class="drop"><strong>Marketing Solution</strong> <img src="img/down-arrow.png"></a>
+                <div class="dropdown-content" id="drop2">
+                    <a href="#">Sales pop</a>
+                    <a href="#">Rewards & Loyalty Points</a>
+                    <a href="#">Consistent Cart & Abandoned Cart</a>
+                </div>
+            </div>
+            <div class="single-menu">
+                <a href="#"><strong>Login to access page</strong></a>
+            </div>
+            <div class="single-menu">
+                <a href="#"><strong>Product labels pro</strong></a>
+            </div>
+            <div class="ending">
+                <p><a href="">BSS Shopify CMS Admin - 2020</a></p>
+            </div>
+        </div>
+    </div>
+
+    <!-- hết navbar -->
+    
+    <div class="login">
+        <div class="loader-container">
+            <div class="loader"></div>
+        </div>
+        <div class="title">LOGIN TO ACCESS PAGE</div>
+        <div class="plan">
+            <div class="mini-plan">
+                <p class="color1">Free Plan</p>
+                <p>3500 <img src="img/top.png"></p>
+            </div>
+            <div class="mini-plan">
+                <p class="color2">Pro Plan</p>
+                <p>3500 <img src="img/down.png"></p>
+            </div>
+            <div class="mini-plan">
+                <p class="color3">Advance Plan</p>
+                <p>3500 <img src="img/top.png"></p>
+            </div>
+        </div>
+        <div class="title">USER</div>
+        <div class="table">
+            <table id="table">
+                <tr>
+                    <th style="text-align: left;">Store name</th>
+                    <th>Create at</th>
+                    <th>Current plan</th>
+                    <th>Number of rule</th>
+                    <th>Total Paid</th>
+                </tr>
+            </table>
+        </div>
+    </div>
+    <!-- hết login -->
+
+    <div class="modal none">
+        <div class="model-load">
+            <div class="model-loader"></div>
+        </div>
+        <div class="modal-title">
+            <p>Action log <img class="exit" src="img/cancel.png"></p>
+        </div>
+        <div class="model-table">
+            <table id ="model-table" class="modal-table">
+                <tr style="height: 50px;">
+                    <th style="text-align: left;">VIVU store</th>
+                    <th>Create at</th>
+                    <th>Event</th>
+                    <th>Number of rules</th>
+                    <th>Total paid</th>
+                </tr>
+            </table>
+        </div>
+    </div>
+    <script src="js/table.js"></script>
+    <script>
+        $(window).on("load", function(){
+            $('.loader-container').fadeOut(3000)
+        })
+    </script>
+</body>
+</html>

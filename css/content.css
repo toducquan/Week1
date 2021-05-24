@@ -1,0 +1,88 @@
+.content{
+    position: absolute;
+    left: 26%;
+    top: 0px;
+    width: 74%;
+    height: 100vh;
+    overflow: scroll;
+}
+.content1{
+    height: 11%;
+    margin: 1% 5%;
+}
+.title{
+    font-family: 'Newsreader', serif;
+    font-weight: bold;
+    padding:2% 1%;
+    width: 15%;
+    float: left;
+    margin: 5px 2%;
+    color: rgb(3, 0, 0);
+}
+.content1 p{
+    display: inline-block;
+}
+.main p{
+    text-align: center;
+    color: #fff;
+    font-family: 'Newsreader', serif;
+    font-weight: bold;
+    padding:2% 1%;
+    width: 12%;
+    margin: 15px 2%;
+}
+.special{
+    background-color: #eeeeee;
+}
+.green{
+    background-color: rgb(87, 230, 87);
+}
+.blue{
+    background-color: #333f49;
+}
+.red{
+    background-color: rgb(236, 68, 68);
+}
+.yellow{
+    background-color: rgb(95, 121, 24);
+}
+.brown{
+    background-color: brown;
+}
+.chart{
+
+    height: 100%;
+    margin: 2% 5%;
+}
+.chart canvas{
+    width:100% !important;
+    height:80% !important;
+    padding-left: 10px !important;
+}
+@media (max-width: 415px){
+    .content{
+        left: 10%;
+        width: 100%;
+    }
+    .content1{
+        height: 18%;
+    }
+    .title{
+        margin-top: 10px;
+        padding:0px;
+        height: 25%;
+        width: 100%;
+        text-align: center;
+        font-weight: bold;
+    }
+    .main{
+        text-align: center;
+    }
+    .main p{
+        width: 30%;
+        margin: 1% 8%;
+    }
+    .chart{
+        display: none;
+    }
+}

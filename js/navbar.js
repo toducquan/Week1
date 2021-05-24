@@ -1,0 +1,22 @@
+$(function(){
+    $('#menu1').click(function(event){
+        if($('#drop1').hasClass('click')){
+            $('#drop1').removeClass('click')
+        }else{
+            $('#drop1').addClass('click')
+        }
+    })
+    $('#menu2').click(function(event){
+        if($('#drop2').hasClass('click')){
+            $('#drop2').removeClass('click')
+        }else{
+            $('#drop2').addClass('click')
+        }
+    })
+    $('.menu-mini').click(function(event){
+        $('.navbar').removeClass('hiden')
+    })
+    $('.close').click(function(event){
+        $('.navbar').addClass('hiden')
+    })
+})
