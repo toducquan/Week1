@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Padauk:wght@700&display=swap');
+
+.label .router{
+    height: 5vh;
+    margin: 2% 5%;
+    font-family: 'Padauk', sans-serif;
+}
+
+.name:hover{
+    text-decoration: underline;
+    
+}
+.label .name{
+    height: 5vh;
+    margin: 2% 5%;
+    font-size: 22px;
+    width: 150px;
+}
+.label .table{
+    min-height: 70vh;
+    margin: 3% 5%;
+}
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+  
+td, th {  
+      
+    text-align: right;
+    padding: 8px;
+}
+.textLeft{
+    text-align: left;
+}
+.row{
+    cursor: pointer;
+    border-bottom: 1px solid gray;
+    height: 40px;
+}
+.row:hover{
+    background-color: #00aae1;
+    color: #ffff;
+}
+.page{
+    position: absolute;
+    top: 55%;
+    left: 44%;
+}
+.index{
+    text-align: center;
+    border-radius: 50%;
+    background-color: #fff;
+    color: #00aae1;
+    font-weight: bold;
+    font-size: 15;
+    padding-top: 4px;
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    margin: 5px;
+    cursor: pointer;
+    border: 1px solid #00aae1;
+}
+.index:hover{
+    background-color: #00aae1;
+    color: #fff;
+}
+.hide{
+    display: none;
+}
+.model{
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 95%;
+    height: 100vh;
+    z-index: 2;
+    background-color: #f4f6f8;
+}
+form{
+    margin: 8%;
+}
+label, input{
+    margin: 2% 0%;
+    display: block;
+}
+input{
+    width: 60%;
+    height: 30px;
+    font-family: arial, sans-serif;
+    padding-left: 3px;
+}
+label{
+    font-family: arial, sans-serif;
+    font-weight: bold;
+}
+.formtitle{
+    font-family: arial, sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    margin: 8%;
+}
+button{
+    margin-right:2%;
+    height: 40px;
+    width: 70px;
+    border-radius:10%;
+    font-family: arial, sans-serif;
+    font-size: 17px;
+    background-color: #fff;
+    color: #00aae1;
+    border: 2px solid #00aae1;
+}
+button:hover{
+    background-color: #00aae1;
+    color: #fff;
+}
+select{
+    display: block;
+    width: 61%;
+    height: 35px;
+    font-family: arial, sans-serif;
+    padding-left: 3px;
+    margin: 2% 0%;
+}
+option{
+    height: 35px;
+    padding-left: 3px;
+}
+.firstRow{
+    height: 30px;
+    background-color: #333f49;
+    color: #fff;
+}
